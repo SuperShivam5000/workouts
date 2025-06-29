@@ -54,50 +54,52 @@
             font-weight: bold;
             letter-spacing: 1px;
         }
-        @media (max-width: 700px) {
-            body {
-                padding: 0 2vw;
-                overflow-x: hidden;
-            }
-            h2 {
-                font-size: 1.3em;
-                margin-top: 20px;
-            }
-            p, summary {
-                font-size: 1em;
-            }
-            details, iframe {
-                max-width: 420px;
-                width: 96vw;
-            }
-            details {
-                padding: 12px 2vw 8px 2vw;
-                margin: 12px auto 20px auto;
-            }
-            iframe {
-                width: 92vw !important;
-                min-width: 0;
-                height: 32vw;
-                min-height: 120px;
-                max-width: 100%;
-            }
+        
+        details, iframe {
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 100vw;
+            min-width: 0;
+            margin-left: auto;
+            margin-right: auto;
         }
-        @media (max-width: 480px) {
-            h2 {
-                font-size: 1.1em;
-            }
+        details {
+            padding: 4vw 3vw 2vw 3vw;
+            margin: 4vw auto 6vw auto;
+            overflow-wrap: break-word;
+        }
+        iframe {
+            display: block;
+            width: calc(100% - 12px) !important;
+            max-width: 100%;
+            min-width: 0;
+            margin: 2vw auto 4vw auto;
+            height: 38vw;
+            min-height: 120px;
+            box-sizing: border-box;
+            background: #181818;
+        }
+        @media (max-width: 700px) {
             details {
-                padding: 8px 1vw 6px 1vw;
-            }
-            details, iframe {
-                max-width: 98vw;
+                padding: 3vw 2vw 2vw 2vw;
             }
             iframe {
-                width: 96vw !important;
-                height: 38vw;
+                width: calc(100vw - 16px) !important;
+                height: 44vw;
                 min-height: 90px;
             }
         }
+        @media (max-width: 480px) {
+            details {
+                padding: 2vw 1vw 1vw 1vw;
+            }
+            iframe {
+                width: calc(100vw - 10px) !important;
+                height: 54vw;
+                min-height: 70px;
+            }
+        }
+        
     </style>
 </head>
 <body align="center" style="background-color:black;color:white">
@@ -111,25 +113,25 @@
         <summary>Open</summary>
         <p>
             1)Chest Press <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-chest-press-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-chest-press-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             2)Barbell Row <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-seated-cable-row-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-seated-cable-row-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             3)Chest Press <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-chest-press-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-chest-press-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             4)Barbell Row <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-seated-cable-row-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-seated-cable-row-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             5)Chest Press <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-chest-press-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-chest-press-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             6)Barbell Row <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-seated-cable-row-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-seated-cable-row-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             7)Chest Flys <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-bent-arm-pec-fly-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-bent-arm-pec-fly-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             8)Lat Pulldowns <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-pulldown-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-pulldown-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             9)Chest Flys <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-bent-arm-pec-fly-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-bent-arm-pec-fly-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             10)Lat Pulldowns <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-pulldown-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-pulldown-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
         </p>
     </details>
     <h2>Workout 2 (10 Sets)</h2>
@@ -137,25 +139,25 @@
         <summary>Open</summary>
         <p>
             1)Leg Press <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-horizontal-leg-press-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-horizontal-leg-press-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             2)Shoulder Press <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-overhead-press-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-overhead-press-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             3)Leg Press <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-horizontal-leg-press-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-horizontal-leg-press-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             4)Shoulder Press <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-overhead-press-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-overhead-press-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             5)Leg Press <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-horizontal-leg-press-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-machine-horizontal-leg-press-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             6)Shoulder Press <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-overhead-press-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-overhead-press-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             7)Calf Raises <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-standing-calf-raises-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-standing-calf-raises-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             8)Side Lateral Raises <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-lateral-raise-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-lateral-raise-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             9)Calf Raises <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-standing-calf-raises-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-machine-standing-calf-raises-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             10)Side Lateral Raises <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-lateral-raise-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-lateral-raise-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
         </p>
     </details>
     <h2>Workout 3 (10 Sets)</h2>
@@ -163,25 +165,25 @@
         <summary>Open</summary>
         <p>
             1)Bicep Curls <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-curl-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-curl-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             2)Tricep Pushdown <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Cables-cable-push-down-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Cables-cable-push-down-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             3)Bicep Curls <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-curl-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-curl-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             4)Tricep Pushdown <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Cables-cable-push-down-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Cables-cable-push-down-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             5)Bicep Curls <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-curl-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-curl-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             6)Tricep Pushdown <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Cables-cable-push-down-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Cables-cable-push-down-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             7)Romanian Deadlift <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-romanian-deadlift-side_dnNh5UH.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-romanian-deadlift-side_dnNh5UH.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             8)Barbell Shrugs <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             9)Romanian Deadlift <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-romanian-deadlift-side_dnNh5UH.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-barbell-romanian-deadlift-side_dnNh5UH.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             10)Barbell Shrugs <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
         </p>
     </details>
     <h2>Workout 4 (5 Sets + Abs)</h2>
@@ -189,18 +191,18 @@
         <summary>Open</summary>
         <p>
             1)Reverse Lunges <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-reverse-lunge-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             2)Rear Delt Rows <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-rear-delt-fly-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-rear-delt-fly-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             3)Reverse Lunges <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-reverse-lunge-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             4)Rear Delt Rows <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-rear-delt-fly-side.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-rear-delt-fly-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             5)Reverse Lunges <span style="color:darkred">(With DropSet)</span> <br>
-            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-shrug-front.mp4#t=0.1" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://media.musclewiki.com/media/uploads/videos/branded/male-Dumbbells-dumbbell-reverse-lunge-side.mp4#t=0.1&autoplay=0" allowfullscreen></iframe> <br>
             <br><br>
             <span style="color:darkred">10 Minute Ab Workout (Follow Along!)</span> <br>
-            <iframe width="280" height="157" src="https://www.youtube.com/embed/i27K2ry9jEo" allowfullscreen></iframe> <br>
+            <iframe width="280" height="157" src="https://www.youtube.com/embed/i27K2ry9jEo?autoplay=0" allowfullscreen></iframe> <br>
         </p>
     </details>
 </body>
